@@ -1,0 +1,45 @@
+/* * {
+    outline: 1px solid red;
+} */
+p, h2 {
+    margin: 0px;
+}
+h2 {
+    color: blue;
+}
+#wrapper {
+    width: 1500px;
+    margin:  auto;
+    padding: 0px;
+}
+.group {
+    width: 100%;
+    margin:2px;
+    display: inline-block;
+}
+.group div {
+    padding: 0px;
+    margin: 0px;
+    width: 60px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+.blue, .yellow, .pink, .green {
+    outline: 1px solid black;
+}
+.blue {
+    background-color: rgb(60, 144, 196);
+}
+.yellow {
+    background-color: yellow;
+}
+.pink {
+    background-color: rgb(248, 163, 175);
+}
+.green {
+    background-color: rgb(95, 226, 95);
+}
+.red p {
+    color: red;
+}
